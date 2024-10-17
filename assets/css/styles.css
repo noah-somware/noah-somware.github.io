@@ -1,0 +1,178 @@
+* {
+    font-family: "roboto", sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 4px 16px;
+    border-radius: 4px;
+    border-width: 0;
+    width: auto;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 16px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.header li a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.line {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroLine {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    gap: 32px;
+}
+
+.heroLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.heroLeft button {
+    align-self: flex-start;
+}
+
+.heroLeft .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.heroLeft .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.cardsLine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardsLine .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    border-radius: 4px;
+}
+
+.quoteLine {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteLine .container {
+    flex-direction: column;
+    gap: 8px;
+}
+
+.attribution {
+    font-weight: bold;
+    font-size: 18px;
+    align-self: flex-end;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.ctaLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.ctaLine .container {
+    background-color: #3882F6;
+    border-radius: 8px;
+    gap: 64px;
+    padding: 32px 64px;
+}
+
+.ctaLine button {
+    border-width: 2px;
+    border-color: #F9FAF8;
+}
+
+.ctaLine .title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ctaLine .text {
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .text,
+.footer a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
